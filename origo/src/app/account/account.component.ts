@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
+import { User } from '../model/user.model';
 
 @Component({
   selector: 'app-account',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountComponent implements OnInit {
 
+  user = new User();
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onLoggedIn(){
+    console.log(this.user); //affiche user
+  }
+
 }
+
+
