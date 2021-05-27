@@ -1,0 +1,42 @@
+Pour les probleme au cas ou
+https://stackoverflow.com/questions/60404698/i-get-this-errorcannot-find-module-angular-devkit-build-angular-package-json
+
+ytb:
+https://www.youtube.com/watch?v=TjS39N11O7U
+
+Dans angular.json vers ligne 25
+"styles": [
+"src/styles.css", AJOUTEZ 
+"node_modules/bootstrap/dist/css/bootstrap.min.css"
+]
+
+creation navbar -> allez dans src-> app-> app.component.html
+
+https://www.youtube.com/watch?v=fzHEkah_dH8
+
+
+https://www.youtube.com/watch?v=eonHAD0Txpg  tres bien
+
+
+LIENS ANGULAR
+https://codehandbook.org/how-to-install-angular-material-in-angular/
+
+https://material.angular.io/guide/theming#using-a-pre-built-theme
+
+https://github.com/codeconcept/restaurangular
+
+https://material.angular.io/components/menu/overview
+
+
+formation
+https://codeconcept.teachable.com/p/angular-5-angular-material-et-rxjs-6-par-la-pratique/?product_id=660103&coupon_code=NG6FOR15
+https://codeconcept.teachable.com/p/angular-2-pack-complet/#YTION3
+
+
+
+
+ERREUR SURVENU
+
+https://errorsea.com/solved-error-ng8001-mat-form-field-is-not-a-known-element-in-angular-cli/
+
+https://stackoverflow.com/questions/48539216/error-ts2339-property-email-does-not-exist-on-type-object
