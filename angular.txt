@@ -44,3 +44,4 @@ https://stackoverflow.com/questions/48539216/error-ts2339-property-email-does-no
 
 CREATING REDIRECT PAGE
 https://www.youtube.com/watch?v=3m_oKTFWIfM
+https://stackoverflow.com/questions/41427405/navigate-to-another-page-with-a-button-in-angular-2

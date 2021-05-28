@@ -27,7 +27,11 @@ const routes: Routes = [
   {path: '', component: HomeComponent}, //localhost)
   {path: 'games', component: GamesComponent},//localhost/games)
   {path: 'account', component: AccountComponent},
-  {path: 'contact', component: ContactComponent}
+  {path: 'contact', component: ContactComponent},
+  {path:'critiques', component: CritiquesComponent},
+  {path:'apercu', component: ApercuComponent},
+  {path:'videos', component: VideosComponent},
+  {path:'photos', component: PhotosComponent}
 ];
 
 @NgModule({
