@@ -18,6 +18,10 @@ import { HomeComponent } from './home/home.component';
 import { GamesComponent } from './games/games.component';
 import { AccountComponent } from './account/account.component';
 import { ContactComponent } from './contact/contact.component';
+import { CritiquesComponent } from './critiques/critiques.component';
+import { ApercuComponent } from './apercu/apercu.component';
+import { VideosComponent } from './videos/videos.component';
+import { PhotosComponent } from './photos/photos.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent}, //localhost)
@@ -33,7 +37,11 @@ const routes: Routes = [
     HomeComponent,
     GamesComponent,
     AccountComponent,
-    ContactComponent
+    ContactComponent,
+    CritiquesComponent,
+    ApercuComponent,
+    VideosComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,

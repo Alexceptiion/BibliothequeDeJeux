@@ -40,3 +40,7 @@ ERREUR SURVENU
 https://errorsea.com/solved-error-ng8001-mat-form-field-is-not-a-known-element-in-angular-cli/
 
 https://stackoverflow.com/questions/48539216/error-ts2339-property-email-does-not-exist-on-type-object
+
+
+CREATING REDIRECT PAGE
+https://www.youtube.com/watch?v=3m_oKTFWIfM
