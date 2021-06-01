@@ -1,7 +1,7 @@
 <ngb-carousel>
   <ng-template ngbSlide>
     <div class="picsum-img-wrapper">
-      <img src="assets/lol.png" alt="Angular Carousel 1">
+      <img src="assets/lol.png" alt="Angular Carousel 1" />
     </div>
     <div class="carousel-caption">
       <h3>Avez-vous noté tous les jeux vidéo auxquels vous avez joué?</h3>
@@ -10,7 +10,7 @@
   </ng-template>
   <ng-template ngbSlide>
     <div class="picsum-img-wrapper">
-      <img src="assets/residentvillage.jpg" alt="Angular Carousel 2">
+      <img src="assets/residentvillage.jpg" alt="Angular Carousel 2" />
     </div>
     <div class="carousel-caption">
       <h3>Quels sont les meilleurs jeux de l'année ?</h3>
@@ -19,7 +19,7 @@
   </ng-template>
   <ng-template ngbSlide>
     <div class="picsum-img-wrapper">
-      <img src="assets/Nier.jpg" alt="Angular Carousel 2">
+      <img src="assets/Nier.jpg" alt="Angular Carousel 2" />
     </div>
     <div class="carousel-caption">
       <h3>Quels sont les jeux le mieux noté de tout Origo ?</h3>
@@ -28,21 +28,99 @@
   </ng-template>
 </ngb-carousel>
 
+<!--Zone de discussion-->
+<mat-card class="example-card">
+  <img
+    class="utilisateur"
+    mat-card-image
+    src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+    alt="Photo of a Shiba Inu"
+  />
+  <span>
+    <a href="#nomDeUser">OussamaLeBest</a>
+  </span>
+  <div>
+    <button mat-button color="primary">J'aime</button>
+    <button mat-button color="primary" >Commenter</button>
+  </div>
+</mat-card><br>
+
+<mat-card class="example-card">
+  <img
+    class="utilisateur"
+    mat-card-image
+    src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+    alt="Photo of a Shiba Inu"
+  />
+  <span>
+    <a href="#nomDeUser">FilipeLeBest</a>
+  </span>
+  <div>
+    <button mat-button color="primary">J'aime</button>
+    <button mat-button color="primary">Commenter</button>
+  </div>
+</mat-card><br>
+
+<mat-card class="example-card">
+  <img
+    class="utilisateur"
+    mat-card-image
+    src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+    alt="Photo of a Shiba Inu"
+  />
+  <span>
+    <a href="#nomDeUser">LoicRouleEnLambo</a>
+  </span>
+  <div>
+    <button mat-button color="primary">J'aime</button>
+    <button mat-button color="primary">Commenter</button>
+  </div>
+</mat-card><br>
+
+<mat-card class="example-card">
+  <img
+    class="utilisateur"
+    mat-card-image
+    src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+    alt="Photo of a Shiba Inu"
+  />
+  <span>
+    <a href="#nomDeUser">Alex&OussamaLove</a>
+  </span>
+  <div>
+    <button mat-button color="primary">J'aime</button>
+    <button mat-button color="primary">Commenter</button>
+  </div>
+</mat-card>
 
 
+<h1>Exemple de post commentaire</h1>
+<div class="w3-row w3-padding w3-border">
+  <!--Blog entries-->
+    <div class="w3-col l12 s12">
+      <!--Blog entry-->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <h1 style="text-align: center">Easy User Comment Box using Angular</h1><br>
 
+        <div class="container">
 
-
-
-
-
-
-
-
-
-
-
-
+          <hr/>
+          <div class="form-group">
+            <h2>Leave a Replay</h2>
+            <form ng-controller="controller">
+              <textarea class="form-control" rows="5" ng-model="cmtName" placeholder="Votre commentaire"></textarea><br/>
+              <button class="btn btn-success btn-md pull-right" ng-click='btn_post();'>Comment</button><br/><hr/>
+              <h3>Comments</h3>
+              <ul class="list-group">
+                <li class="list-group-item" ng-repeat="cmt in comments"></li>
+                <a href="" ></a>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 
 <!-- <mat-carousel
   timings="250ms ease-in"
@@ -67,4 +145,3 @@
     [hideOverlay]="false"
   ><h1>Bienvenue Cavalier</h1></mat-carousel-slide>
 </mat-carousel> -->
-

@@ -2,31 +2,40 @@
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
   </mat-card-header>
-  <img mat-card-image src="assets/outerworld.jpg" alt="Photo of a Shiba Inu">
+  <img mat-card-image src="assets/outerworld.jpg" alt="Photo of a Shiba Inu" />
 </mat-card>
 
 <h1>Content de te revoir !</h1>
 <p>veuillez vous connecter pour continuer</p>
-<p >
-    <mat-form-field appearance="standard">
-      <mat-label>Email</mat-label>
-      <input matInput placeholder="Placeholder" />
-      <mat-icon matSuffix>alternate_email</mat-icon>
-      <mat-hint>Hint</mat-hint>
-    </mat-form-field>
-  </p>
-  <p>
-    <mat-form-field appearance="standard">
-      <mat-label>Mot de passe</mat-label>
-      <input matInput placeholder="Placeholder" />
-      <mat-icon matSuffix>lock</mat-icon>
-      <mat-hint>Hint</mat-hint>
-    </mat-form-field>
-  </p>
+<p>
+  <mat-form-field appearance="standard">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Placeholder" />
+    <mat-icon matSuffix>alternate_email</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+</p>
+<p>
+  <mat-form-field appearance="standard">
+    <mat-label>Mot de passe</mat-label>
+    <input matInput placeholder="Placeholder" />
+    <mat-icon matSuffix>lock</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+</p>
 
-  <section>
-    <div class="example-button-row">
-        <button mat-raised-button color="warn">Connexion</button>
-      <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
-    </div>
-  </section>
+<section>
+  <div class="example-button-row">
+    <button mat-raised-button color="warn">Connexion</button>
+    <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
+
+<p>se connecter avec :</p>
+
+<a href=""><button mat-mini-fab color="warn">G</button></a>
+<a href="https://www.facebook.com/"><button mat-mini-fab color="primary">F</button></a>
+
+
+<p>Vous n'avez pas de compte?</p>
+<a routerLink="/inscription"><h1>Créer un compte</h1></a>

@@ -5,3 +5,14 @@ games et compte :
 https://material.angular.io/
 
 https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/#angular-material-icons-list-categories
+
+idée filtre:
+https://www.youtube.com/watch?v=MmWrUME5ZFM
+
+<mat-icon>format_align_justify</mat-icon>
+
+idée commentaire
+https://www.youtube.com/watch?v=Vs4f-ys9qhY
+https://www.youtube.com/watch?v=QRXop_fLAfg
+
+https://www.topito.com/top-meilleur-replique-rick-morty

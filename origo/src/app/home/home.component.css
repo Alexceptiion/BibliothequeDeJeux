@@ -44,3 +44,10 @@ ngb-carousel {
 .carousel-indicators{
    z-index: 20;
 }
+.utilisateur{
+   height: 60px;
+   width: 80px;
+}
+a{
+   margin-left: 20px;
+}

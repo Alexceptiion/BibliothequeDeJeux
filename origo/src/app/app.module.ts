@@ -9,6 +9,8 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
@@ -32,6 +34,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { InscriptionComponent } from './inscription/inscription.component';
 
 
+
 const routes: Routes = [
   {path: '', component: HomeComponent}, //localhost)
   {path: 'games', component: GamesComponent},//localhost/games)
@@ -40,7 +43,8 @@ const routes: Routes = [
   {path:'critiques', component: CritiquesComponent},
   {path:'apercu', component: ApercuComponent},
   {path:'videos', component: VideosComponent},
-  {path:'photos', component: PhotosComponent}
+  {path:'photos', component: PhotosComponent},
+  {path:'inscription', component: InscriptionComponent},
 ];
 
 @NgModule({
@@ -65,6 +69,7 @@ const routes: Routes = [
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
+    MatButtonToggleModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,

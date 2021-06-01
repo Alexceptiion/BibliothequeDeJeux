@@ -1,14 +1,18 @@
-h1{
-    color: #fe5700;
-    font-weight: bold;
-    text-align: center;
+h1 {
+  color: #fe5700;
+  font-weight: bold;
+  text-align: center;
 }
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
-.example-section{
-    text-align: center;
+.example-section {
+  text-align: center;
 }
-.example-button-row{
-    text-align: center;
+.example-button-row {
+  text-align: center;
 }
+
+  .connectwith{
+  align-items: center;
+  }
