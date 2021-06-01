@@ -1,0 +1,7 @@
+carousel utilisé:  Pour home.component (accueil)
+https://www.positronx.io/angular-responsive-carousel-examples/
+
+games et compte :
+https://material.angular.io/
+
+https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/#angular-material-icons-list-categories

@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+
+
 
 @Component({
   selector: 'app-root',
@@ -11,3 +14,5 @@ export class AppComponent {
   
 
 }
+
+

@@ -32,6 +32,20 @@ formation
 https://codeconcept.teachable.com/p/angular-5-angular-material-et-rxjs-6-par-la-pratique/?product_id=660103&coupon_code=NG6FOR15
 https://codeconcept.teachable.com/p/angular-2-pack-complet/#YTION3
 
+https://ng-bootstrap.github.io/#/components/carousel/examples
+https://www.positronx.io/angular-responsive-carousel-examples/
+
+
+https://www.itsolutionstuff.com/post/angular-material-carousel-slider-exampleexample.html   CAROUSEL
+https://daemonite.github.io/material/docs/4.0/components/carousel/
+https://therichpost.com/how-to-implement-owl-carousel-slider-in-angular-8/
+https://mdbootstrap.com/docs/standard/components/carousel/
+https://www.youtube.com/watch?v=gWs4y2DZngg  (mdb cli)
+https://www.youtube.com/watch?v=WROChiPfOTc
+PROBLEMS?
+ Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+
 
 
 
@@ -45,3 +59,60 @@ https://stackoverflow.com/questions/48539216/error-ts2339-property-email-does-no
 CREATING REDIRECT PAGE
 https://www.youtube.com/watch?v=3m_oKTFWIfM
 https://stackoverflow.com/questions/41427405/navigate-to-another-page-with-a-button-in-angular-2
+
+
+
+
+
+
+
+
+
+
+
+
+dans app.component.html
+<h1>Lezjgiçuhz CAROUSEL</h1>
+<mat-carousel
+  timings="250ms ease-in"
+  [autoplay]="true"
+  interval="5000"
+  color="accent"
+  maxWidth="auto"
+  proportion="25"
+  slides="5"
+  [loop]="true"
+  [hideArrows]="false"
+  [hideIndicators]="false"
+  [useKeyboard]="true"
+  [useMouseWheel]="false"
+  orientation="ltr"
+>
+  <mat-carousel-slide
+    #matCarouselSlide
+    *ngFor="let slide of slides; let i = index"
+    [image]="slide.image"
+    overlayColor="#00000040"
+    [hideOverlay]="false"
+  ></mat-carousel-slide>
+</mat-carousel>
+
+app.component.ts
+
+import { MatCarousel, MatCarouselComponent } from '@ngmodule/material-carousel';
+
+ slides = [
+    {'image': '/assets/Cyber.jpg'}, 
+    {'image': '/assets/Nier.jpg'},
+    {'image': '/assets/residentvillage.jpg'}, 
+    {'image': '/assets/resident.jpg'}, 
+    {'image': '/assets/nioh2.jpg'}
+  ];
+
+
+
+angular.json
+styles:[
+   "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
+],

@@ -14,6 +14,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule,  } from '@angular/material/form-field';
+import { MatCheckboxModule } from '@angular/material/checkbox'
 import { HomeComponent } from './home/home.component';
 import { GamesComponent } from './games/games.component';
 import { AccountComponent } from './account/account.component';
@@ -22,6 +25,12 @@ import { CritiquesComponent } from './critiques/critiques.component';
 import { ApercuComponent } from './apercu/apercu.component';
 import { VideosComponent } from './videos/videos.component';
 import { PhotosComponent } from './photos/photos.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+  
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { InscriptionComponent } from './inscription/inscription.component';
+
 
 const routes: Routes = [
   {path: '', component: HomeComponent}, //localhost)
@@ -45,7 +54,9 @@ const routes: Routes = [
     CritiquesComponent,
     ApercuComponent,
     VideosComponent,
-    PhotosComponent
+    PhotosComponent,
+    InscriptionComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -59,7 +70,13 @@ const routes: Routes = [
     MatListModule,
     MatCardModule,
     MatMenuModule,
-    RouterModule.forRoot(routes)
+    MatFormFieldModule,
+    MatInputModule,
+    MatCheckboxModule,
+    NgbModule,
+    MatCarouselModule.forRoot(),
+    RouterModule.forRoot(routes),
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
