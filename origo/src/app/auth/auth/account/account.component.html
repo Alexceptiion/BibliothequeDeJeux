@@ -1,0 +1,54 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+  </mat-card-header>
+  <img mat-card-image src="assets/outerworld.jpg" alt="Photo of a Shiba Inu" />
+</mat-card>
+
+<div *ngIf="!this.isLogin">
+  <h1>Content de te revoir !</h1>
+  <p>veuillez vous connecter pour continuer</p>
+
+  <form [formGroup]="ngForm" (ngSubmit)="onSubmit(myform)">
+    <p>
+      <mat-form-field appearance="standard">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Placeholder" ngModel />
+        <mat-icon matSuffix>alternate_email</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="standard">
+        <mat-label>Mot de passe</mat-label>
+        <input matInput placeholder="Placeholder" ngModel />
+        <mat-icon matSuffix>lock</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </p>
+
+    <section>
+      <div class="example-button-row">
+        <button mat-raised-button color="warn" type="submit">Connexion</button>
+        <a mat-raised-button href="https://www.google.com/" target="_blank"
+          >Link</a
+        >
+      </div>
+    </section>
+  </form>
+
+  <div class="col-md-4 offset-4 mt-5" *ngIf="this.isLogin">
+    <h1>You are logged in</h1>
+    <button class="btn btn-outline-info" (click)="logout()">Log-out</button>
+  </div>
+
+  <p>se connecter avec :</p>
+
+  <a href=""><button mat-mini-fab color="warn">G</button></a>
+  <a href="https://www.facebook.com/"
+    ><button mat-mini-fab color="primary">F</button></a
+  >
+</div>
+
+<p>Vous n'avez pas de compte?</p>
+<a routerLink="/inscription"><h1>Créer un compte</h1></a>

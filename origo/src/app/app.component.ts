@@ -12,7 +12,7 @@ export class AppComponent {
   title = 'origo';
   myimages:string = "images/residentvillage.jpg";
   
-
+ 
 }
 
 

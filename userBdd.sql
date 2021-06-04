@@ -4,14 +4,13 @@
 
 
 #------------------------------------------------------------
-# Table: Utilisateurs
+# Table: utilisateurs
 #------------------------------------------------------------
 
-CREATE TABLE Utilisateurs(
+CREATE TABLE utilisateurs(
         id       Int NOT NULL ,
-        email    Varchar (50) NOT NULL ,
-        pseudo   Varchar (100) NOT NULL ,
-        password Varchar (100) NOT NULL
-	,CONSTRAINT Utilisateurs_PK PRIMARY KEY (id)
+        username Varchar (50) NOT NULL ,
+        password Char (5) NOT NULL
+	,CONSTRAINT utilisateurs_PK PRIMARY KEY (id)
 )ENGINE=InnoDB;
 

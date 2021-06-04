@@ -9,6 +9,7 @@ export class CritiquesComponent implements OnInit {
 
   constructor() { }
 
+
   ngOnInit(): void {
   }
 

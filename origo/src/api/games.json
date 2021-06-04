@@ -1,0 +1,29 @@
+[
+    {
+        "gamesId": 1,
+        "gamesName": "jeux1",
+        "imagesUrl": "assets/",
+        "rating":
+    },
+
+    {
+        "gamesId": 2,
+        "gamesName": "jeux2",
+        "imagesUrl": "assets/",
+        "rating": 
+    },
+
+    {
+        "gamesId": 3,
+        "gamesName": "",
+        "imagesUrl": "assets/",
+        "rating": 
+    },
+
+    {
+        "gamesId": 4,
+        "gamesName": "",
+        "imagesUrl": "assets/",
+        "rating": 
+    },
+]
